@@ -1,12 +1,26 @@
 # Primeiro-Portifólio
 
-> Esse projeto tinha como objetivo colocar minhas habilidades e conteúdos aprendido durantes as aulas do primeiro módulo da ong [__Programadores do Amanhã__](https://programadoresdoamanha.org) em prática. 
+> Esse projeto tinha como objetivo colocar minhas habilidades e conhecimentos aprendidos durantes as aulas do segundo módulo da ong [__Programadores do Amanhã__](https://programadoresdoamanha.org) em prática.
+
+## Conteúdos do Portifólio
+
+- __Home__
+    * Página inicial onde se informa meu nome junto à minha foto, contendo a descrição do que estou me capacitando. Além de também possuir os links das minhas redes sociais.
+- __Bio__
+    * Página de biografia onde conta um pouco da minha história.
+- __Habilidades__
+    * Página onde contém as habilidades que tenho conhecimento.
+- __Atividades feitas__
+    * Página onde contém as algumas atividades assíncronas que foram feitas ao longo aprendizado do curso.
+> O que são atividades assíncronas? são breves desafios propostos ao fim de cada aula, onde se coloca em prática os conteúdos aprendidos na aula.
+
 
 ## Quais foram as tecnologias utilizadas?
 
 - HTML
     * Classes e Id
 - CSS
+- JavaScript
 
 ## Quais eram os requísitos do projeto?
 
