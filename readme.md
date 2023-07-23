@@ -11,8 +11,10 @@ Esse projeto tem como objetivo colocar minhas habilidades e conhecimentos aprend
 - __Habilidades__
     * Página onde contém as habilidades que tenho conhecimento.
 - __Atividades feitas__
-    * Página onde contém as algumas atividades assíncronas que foram feitas ao longo aprendizado do curso.
-> O que são atividades assíncronas? são breves desafios propostos ao fim de cada aula, onde se coloca em prática os conteúdos aprendidos na aula.
+    * Página onde contém as algumas atividades assíncronas que foram feitas ao longo do aprendizado do curso.
+> __O que são atividades assíncronas?__
+> 
+> São breves desafios propostos ao fim de cada aula, onde se coloca em prática os conteúdos aprendidos durante a aula.
 
 
 ## Quais foram as tecnologias utilizadas?
