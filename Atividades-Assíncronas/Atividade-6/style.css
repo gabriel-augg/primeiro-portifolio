@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #4C51C6;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: #607FF2;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 2em;
+    list-style: none;
+}
+
+
+#home section {
+    width: 900px;
+    margin: 100px auto;
+}
+
+#produtos section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box {
+    width: 200px;
+    margin: 20px;
+}
+
+#contato .box {
+    width: auto;
+    margin-top: 150px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #607FF2;
+    background-color: white;
+}
+
+#home a.home, #produtos a.produtos, #contato a.contato {
+    text-decoration: none;
+    color: #607FF2;
+    background-color: white;
+}
+
+#contato section {
+    display: flex;
+    justify-content: center;
+}
+
+#contato section ul {
+    display: flex;
+    list-style: none;
+    font-size: 2em;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#contato section li {
+    gap: 30px;
+}
+
+#contato li#linkedin::before {
+   content: url(linkedin.png)
+}
+
+#contato li#instagram::before {
+    content: url(instagram.png)
+ }
+
+ #contato li#github::before {
+    content: url(github.png)
+ }

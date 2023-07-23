@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    background: #2d3250;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+
+main h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #E09145;
+}
+
+#content {
+    margin: 100px auto;
+    width: 700px;
+    height: 300px;
+    border-radius: 40px;
+    padding: 30px;
+    text-align: center;
+    background: #4A5C6A;
+}
+
+ul {
+    text-align: left;
+}
+
+#listas {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#listas h2 {
+    text-align: center;
+}
+

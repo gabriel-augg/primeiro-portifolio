@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: #232936;
+    color: #FFFF;
+}
+
+body#home {
+    background: #232936 url(./images/bg-image.jpg) center;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+
+}
+
+
+
+
+#cabecalho a:hover {
+    color: #EC8164;
+}
+
+#cabecalho a {
+    font-size: 1.2em;
+}
+
+#titulo-cabecalho h1 {
+    color: #EC8164;
+    font-size: 2.8em;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#cabecalho ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+}
+
+
+#home main {
+    width: 600px;
+    margin: 2% auto;
+    text-align: center;
+
+}
+
+#home main img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#home main h1 {
+    color: #EC8164;
+    margin-bottom: 5px;
+    font-size: 3em;
+}
+
+#home main h2 {
+    font-size: 2em;
+}
+
+
+
+#home li .home,
+#bio li .bio,
+#habilidades li .habilidades,
+#atividades li .atividades {
+    color: #EC8164;
+}
+
+footer ul {
+    list-style: none;;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 15px;
+    gap: 10px;
+}
+
+footer img:hover {
+    
+    opacity: 0.7;
+}
+
+
+/** Bio **/
+
+#bio section {
+    width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#caixa-bio {
+    width: 90%;
+    padding: 20px 20px 50px 20px;
+}
+
+#bio #image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+
+
+#bio span {
+    color: #EC8164;
+}
+
+#bio section h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #EC8164;
+    width: 200px;
+    padding: 10px 0;
+}
+
+#bio section p {
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 1em;
+    padding: 15px 0;
+}
+
+/* Habilidades*/
+
+#habilidades section {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#habilidades #conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#habilidades section h1{
+    color: #FFF;
+    border-bottom: 1px solid #EC8164;
+    padding-bottom: 15px;
+    font-size: 2em;
+}
+
+#habilidades h2{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.caixa ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.caixa ul li {
+    padding: 30px;
+}
+
+#habilidades-conteudo li#html{
+    background: url(./images/html.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#css{
+    background: url(./images/css.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#git{
+    background: url(./images/git.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#javascript{
+    background: url(./images/javascript.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#bootstrap{
+    background: url(./images/bootstrap.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#react{
+    background: url(./images/react.png) no-repeat center left;
+}
+
+
+#habilidades-conteudo li#empatia{
+    background: url(./images/empatia.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#emocao{
+    background: url(./images/emocao.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#equipe{
+    background: url(./images/equipe.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#emocao{
+    background: url(./images/emocao.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#proatividade{
+    background: url(./images/proatividade.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#pensamento{
+    background: url(./images/computer.png) no-repeat center left;
+}
+
+#habilidades-conteudo li#node{
+    background: url(./images/node.png) no-repeat center left;
+}
+
+#atividades-conteudo section {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+/* atividades */
+
+#caixa-atividades {
+    margin-top: 20;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.semana {
+    text-align: center;
+}
+
+
+
+.semana h3 {
+    margin-bottom: 30px;
+    color: #EC8164;
+    background-color: #FFF;
+}
+
+.semana a {
+    background-color: #EC8164;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.semana a:hover {
+    background: #FFF;
+    color: #EC8164;
+}
+
+.semana ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+#atividades-titulo{
+    padding: 50px;
+    text-align: center;
+}
+
+
+#atividades-titulo h3{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 760px){
+    #cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    #cabecalho a:hover {
+        color: #EC8164;
+    }
+    
+    #cabecalho a {
+        font-size: 1.2em;
+    }
+    
+    #titulo-cabecalho h1 {
+        padding: 10px;
+        color: #EC8164;
+        font-size: 3em;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFF;
+    }
+    
+    #cabecalho ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 5%;
+        font-size: 1.3em;
+        list-style: none;
+    }
+    
+    
+    #home main {
+        width: 80%;
+        margin: 2% auto;
+        text-align: center;
+    }
+    
+    #home main img {
+        width: 90%;
+        border-radius: 50%;
+        margin-bottom: 5%;
+    }
+    
+    #home main h1 {
+        color: #EC8164;
+        margin-bottom: 5px;
+        font-size: 3em;
+    }
+    
+    #home main h2 {
+        font-size: 2em;
+    }
+
+    footer ul {
+        list-style: none;;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;  
+        margin-top: 20px;  
+        gap: 50px;
+    }
+
+    footer ul img {
+        width: 200%;
+    }
+
+    /** Bio **/
+
+    #bio section {
+        width: 90%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    #caixa-bio {
+        width: 90%;
+        padding: 20px 20px 50px 20px
+    
+    }
+    
+    #bio #image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #bio #caixa-img {
+        text-align: center;
+    }
+    
+    
+    
+    #bio span {
+        color: #EC8164;
+    }
+    
+    #bio section h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #EC8164;
+        width: 200px;
+        padding: 10px 0;
+    }
+    
+    #bio section p {
+        text-align: justify;
+        font-size: 1.2em;
+        padding: 15px 0;
+    }
+
+    /* Habilidades */
+    
+    #habilidades section {
+        width: 90%;
+        margin: 50px auto;
+    }
+    
+    #habilidades #conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+    }
+    
+    #habilidades section h1{
+        color: #FFF;
+        border-bottom: 1px solid #EC8164;
+        padding-bottom: 15px;
+        font-size: 2em;
+    }
+    
+    #habilidades h2{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .caixa ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .caixa ul li {
+        font-size: 1.2em;
+        padding: 10%;
+    }
+
+    /* atividades */
+
+    #caixa-atividades {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    
+    
+    .semana {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .semana li{
+        font-size: 1.3em;
+    }
+    
+    
+    
+    .semana h3 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 30px;
+        color: #EC8164;
+        background-color: #FFF;
+    }
+    
+    .semana a {
+        background-color: #EC8164;
+        font-weight: bold;
+        padding: 4px;
+        border-radius: 10px;
+    }
+    
+    .semana a:hover {
+        background: #FFF;
+        color: #EC8164;
+    }
+    
+    .semana ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 20px
+    }
+    
+    #atividades-titulo{
+        padding: 50px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    
+    #atividades-titulo h3{
+        margin-top: 30px;
+    }
+}
