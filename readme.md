@@ -1,6 +1,6 @@
 # Primeiro-Portifólio
 
-> Esse projeto tinha como objetivo colocar minhas habilidades e conhecimentos aprendidos durantes as aulas do segundo módulo da ong [__Programadores do Amanhã__](https://programadoresdoamanha.org) em prática.
+> Esse projeto tinha como objetivo colocar minhas habilidades e conhecimentos aprendidos durante as aulas do segundo módulo da ong [__Programadores do Amanhã__](https://programadoresdoamanha.org) em prática.
 
 ## Conteúdos do Portifólio
 
@@ -18,7 +18,6 @@
 ## Quais foram as tecnologias utilizadas?
 
 - HTML
-    * Classes e Id
 - CSS
 - JavaScript
 
